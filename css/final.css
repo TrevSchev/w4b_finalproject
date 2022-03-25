@@ -1,59 +1,93 @@
-body{
+body {
     background-color: #46879B;
+    margin: 0;
 }
 
-header{
+header {
     background-color: #004A61;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     left: 0;
-    top: 0;
-    bottom: 72%;
+    /* bottom: 70%; */
 }
 
-#sight_header{
+#sight_header {
     width: 200px;
     padding-top: 20px;
     padding-left: 20px;
 }
 
-
-nav{
+nav {
     background-color: #012d3a;
-
 }
 
-nav  li{
+nav li {
     display: inline-block;
     padding: 20px;
     font-size: 20px;
 }
 
-nav  li  a{
+nav li a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-h1{
+h1 {
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
 }
 
-#center_home_covers .home_covers{
-    margin: auto;
+p {
+    color: whitesmoke;
 }
 
-.home_covers{
+#center_home_covers {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.home_covers {
     width: 300px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-footer{
+footer {
+    position: absolute;
     background-color: #012d3a;
-    position: fixed;
     width: 100%;
-    left: 0;
     bottom: 0;
+    height: 65px;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.page_titles {
+    border: 2px solid red;
+    width: 55%;
+    margin-right: 50px;
+    float: right
+}
+
+.page_pictures {
+    border: 2px solid red;
+    width: 40%;
+    float: left;
+}
+
+#port {
+    width: 500px;
+    margin: 20px;
+}
+
+
+/* @media only screen and (max-width: 1000px) { */
+
+#center_home_covers {
+    flex-flow: row wrap;
+}
+
+
 }
