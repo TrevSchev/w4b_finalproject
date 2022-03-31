@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="css/final.css" />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/f790877a53.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <body>
+    <header>
+      <a href="index.html"
+        ><img id="sight_logo" src="image/site_header.png"
+      /></a>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Portfolio</a>
+
+            <ul>
+              <li><a href="logo.html">Logos</a></li>
+              <li><a href="#">Illustrations</a></li>
+              <li><a href="#">Covers</a></li>
+              <li><a href="#">Photos</a></li>
+            </ul>
+          </li>
+
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <h1>Contact</h1>
+
+      <div class="container">
+
+        <form name="contact"></form>
+        <p>
+          Please use the form bellow for any inquiries about your design
+          projects
+        </p>
+
+        
+          <label for="name">Your Name/Company Name</label>
+          <input type="text" id="name" name="your_name" placeholder="Name..." />
+
+          <label for="name">Project Title</label>
+          <input
+            type="text"
+            id="project"
+            name="project_title"
+            placeholder="Project..."
+          />
+
+          <!-- <p>Type of Project</p> -->
+          <label for="type_project">Type of Project</label>
+          <br />
+          <br />
+          <label><input type="radio" name="type_project" />Logo</label>
+          <label><input type="radio" name="type_project" />Illustration</label>
+          <label><input type="radio" name="type_project" />Cover</label>
+          <br />
+          <br />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Project Idea..."
+            style="height: 200px"
+          ></textarea>
+
+          <div class="btn">
+            <button>Send</button>
+          </div>
+        </form>
+        
+      </div>
+
+      <div id="map_container">
+      <h2>Google Maps Embeded</h2>
+      <p>Going here for <a href="https://youtu.be/s_iXOHVcSU8?t=109" target="_blank">Let's Play Live</a> this weekend!!!</p>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12612.519447579098!2d-122.4190082302246!3d37.78699630000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e55ad72fb%3A0x1602e4aeaa4452c!2sAmerican%20Conservatory%20Theater!5e0!3m2!1sen!2sus!4v1648692624826!5m2!1sen!2sus" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+      
+    </div>
+
+      <footer>
+        <a href="https://www.instagram.com/trevschevdesigns/" target="_blank"
+          ><i class="fa-brands fa-instagram fa-2xl"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/trevor-scheving-163292220/?trk=public_profile_browsemap"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in fa-2xl"></i
+        ></a>
+      </footer>
+  </body>
+</html>
